@@ -7,7 +7,7 @@
 |Quoi
 |Combien
 
-|{jmb}
+|{fg}
 |<<Introduction>>
 |2h Cours
 
@@ -19,7 +19,7 @@
 |DOORS
 |6h TP
 
-|{jmb} & Chaudet
+|{fg} & Chaudet
 |<<Exigences>>
 
 <<SysML>>

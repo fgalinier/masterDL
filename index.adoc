@@ -3,20 +3,21 @@
 // (c) JMB - 2016-2018
 //---------------------------------
 = Initiation à l'Ingénierie Système
-J.-M. Bruel <jbruel@gmail.com>
-V1.1, {localdate}
+F. Galinier<galinierflo@gmail.com>
+V1.2, {localdate}
 :icons: font
 :toc-title: Table des matières
 :toc: left
 :numbered:
 :imagesdir: images
-:website: https://jmbruel.github.io/masterDL/
-:websitegh: https://github.com/jmbruel/masterDL2016
+:website: https://fgalinier.github.io/masterDL/
+:websitegh: https://github.com/fgalinier/masterDL
 :jmbtopic: //for sections integration...
 
 //------------------------- définitions ---------------------
 :cherbonneau: mailto:Bernard.Cherbonneau@irit.fr[Bernard Cherbonneau]
 :jmb: mailto:jbruel@gmail.com[J.-M. Bruel]
+:fg: mailto:galinierflo@gmail.com[F. Galinier]
 :mdlurl: http://www.master-developpement-logiciel.fr
 :mdl: {mdlurl}/[Master DL]
 :refmodule: EIINL3AM
@@ -35,12 +36,6 @@ image::customLogo.gif[width=100%,link={mdlurl}]
 
 :numbered!:
 //---------------------------- Avant-propos -------------------------
-== Avant-Propos
-
-Ce site est le résultat de la collaboration des étudiants du {mdl} dans ce cours d'
-ingénierie système ({refmodule}).
-
-WARNING: Site under construction!!
 
 === Conventions
 
@@ -62,6 +57,7 @@ Pour les identifier j'essaye de les repérer systématiquement par une indicatio
 === Contributeurs
 
 - {jmb} depuis le 21/09/2016
+- {fg} depuis le 2/10/2020
 //- [ajouter votre nom ici] depuis le [JJ/MM/YYY]
 // copier et decommenter la phrase ci-dessus
 // (en laissant celle-ci intacte pour les suivants ;-)

@@ -63,6 +63,7 @@ endif::slides[]
 :cherbonneau: mailto:Bernard.Cherbonneau@irit.fr[Bernard Cherbonneau]
 :git: link:http://git-scm.com/[Git]
 :jmb: mailto:jbruel@gmail.com[J.-M. Bruel]
+:fg: mailto:galinierflo@gmail.com[F. Galinier]
 :mdlurl: http://www.master-developpement-logiciel.fr
 :mdl: {mdlurl}/[Master DL]
 :models: http://www.modelsconference.org/[MODELS]
@@ -144,11 +145,15 @@ ifndef::slides[.MindMap 2017 (résultat du brainstorming collectif)]
 image::IS2017.svg[width=80%]
 ifdef::slides[NOTE: [detail]#MindMap 2017 (résultat du brainstorming collectif)#]
 
+ifdef::slides[== !]
+
 Voici la _mind map_ réalisée par les étudiants de la promo 2018 :
 
 ifndef::slides[.MindMap 2018 (résultat du brainstorming collectif)]
 image::IS2018.png[width=80%]
 ifdef::slides[NOTE: [detail]#MindMap 2018 (résultat du brainstorming collectif)#]
+
+ifdef::slides[== !]
 
 Voici la _mind map_ réalisée par les étudiants de la promo 2019 :
 
