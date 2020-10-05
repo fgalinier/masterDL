@@ -1,6 +1,6 @@
 //---------------------------------
 // Introduction à l'IS ("chapeau")
-// (c) JMB - 2016-2018
+// (c) JMB - 2016-2020
 //---------------------------------
 = Initiation à l'Ingénierie Système
 F. Galinier<galinierflo@gmail.com>

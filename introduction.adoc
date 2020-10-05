@@ -15,7 +15,7 @@ ifndef::jmbtopic[F. Galinier -- {localdate}]
 :numbered:
 :status:
 :imagesdir: images
-:siteurl: https://jmbruel.github.io/masterDL/
+:siteurl: https://fgalinier.github.io/masterDL/
 //------------------------------------ Slides uniquement
 ifdef::slides[]
 //--------------------- dzslides slides
