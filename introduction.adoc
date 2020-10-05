@@ -4,7 +4,7 @@
 //---------------------------------
 [[Introduction]]
 = icon:star-half[] Introduction à l'*IS*
-ifndef::jmbtopic[J.-M. Bruel -- {localdate}]
+ifndef::jmbtopic[F. Galinier -- {localdate}]
 //------------------------------------ variables de configuration
 :linkcss:
 :git-version: 2.9.2
@@ -84,50 +84,46 @@ ifdef::slides[]
 == Who am I ?
 
 [.incremental]
-- Professor image:logo-iut-blagnac.png[width=20%]
-- Editorial board of _{sosym}_ image:sosym.png[width=10%,link="http://www.sosym.org/"]
-- ACM/IEEE {models} image:models2016.png[width=30%,link="http://www.modelsconference.org/"]
-- Cyber-Physical/Ambient Systems image:logo-irit.png[width=30%,link="http://www.irit.fr/"]
-- Co-founder of {sysmlfrance}
-image:LogoSysML-France.png[width="15%",role="align-center"]
-- Contact : icon:envelope-o[] bruel@irit.fr, icon:twitter[] @jmbruel
 
-
-[{topic}]
-== Pour suivre en live... icon:mobile[] icon:tablet[] icon:laptop[]
+- F. Galinier
 
 [{statement}]
-{siteurl}
+[.incremental]
+- Thèse en Ingénierie des Exigences
+- En cours de création d'une start-up génie logiciel / ingénierie des exigences
+- Contact : icon:envelope-o[] florian.galinier@irit.fr
+
 
 [{intro}]
 == Stop!
 
 image::ineedyou.jpg[width=100%]
 
-{siteurl}
-
 [{topic}]
-== Brainstorming collaboratifs
+== Brainstorming collaboratif
 
 [{incremental}]
-- icon:git[] des spécialistes {git}
 - icon:file[] des volontaires pour prendre des notes
 - icon:cloud[] des spécialistes de "cloudword"
 - icon:home[] des spécialistes du web
 - icon:camera[] des photographes
 
-{siteurl}
-
 ifdef::slides[== !]
 
 endif::slides[]
 
-Voici les mots clefs du support de cours de l'an dernier
+Voici les mots clefs du support de cours de 2015
 (réalisé par {cherbonneau}) :
 
 ifndef::slides[.Nuages des mots du support 2015 (@bernardcherbonn)]
 image::canvas.png[width=80%]
 ifdef::slides[NOTE: [detail]#Nuages des mots du support 2015#]
+
+[{topic}]
+== Pour suivre en live... icon:mobile[] icon:tablet[] icon:laptop[]
+
+[{statement}]
+{siteurl}
 
 ifdef::slides[== !]
 
@@ -164,14 +160,11 @@ ifdef::slides[NOTE: [detail]#MindMap 2019 (résultat du brainstorming collectif)
 [{topic}]
 == Rendons à César...
 
-Je ne suis que le modeste successeur de {cherbonneau} (responsable du module jusqu'en 2015).
+La grande majorité de ce cours a été réalisée par {jmb}.
 
-ifndef::slides[.Bernard Cherbonneau, le "papa" de ce cours (@bernardcherbonn)]
-image::bernard.jpeg[width=40%]
-ifdef::slides[NOTE: [detail]#Bernard Cherbonneau, le "papa" de ce cours (icon:twitter[] @bernardcherbonn)#]
-
-WARNING: J'ai enlevé `Ingénierie` et `Système` qui était sur-représentés bien sûr
-(d'au moins un facteur 4 sur le 3ème mot le plus fréquent).
+ifndef::slides[.Jean-Michel Bruel (@jmbruel)]
+image::jmb.jpg[width=40%]
+ifdef::slides[NOTE: [detail]#Jean-Michel Bruel (@jmbruel)#]
 
 [{topic}]
 == Discipline _relativement_ nouvelle
@@ -381,15 +374,6 @@ NOTE: Autrement dit : une amélioration de la *compétitivité* des entreprises!
 
 - Tous les domaines complexes
 - Grande tendance du moment : <<MBSE>> (_Model-Based System Engineering_)
-
-ifdef::slides[]
-[{topic}]
-== Et la suite?
-
-- Plan du module
-- Maintient du site (je compte sur vous!)
-
-endif::slides[]
 
 ifdef::slides[]
 [{intro}]
