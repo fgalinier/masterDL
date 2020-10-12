@@ -5,7 +5,7 @@
 [[reqs]]
 = Les *exigences* (et SysML)
 ifndef::jmbtopic[]
-J.-M. Bruel -- {localdate}
+F. Galinier -- {localdate}
 //------------------------------------ variables de configuration
 :jmbtopic:
 :linkcss:
@@ -141,7 +141,7 @@ endif::book[]
 On abordera :
 
 [{incremental}]
-- L'organization des _Requirements_
+- L'organisation des _Requirements_
 - Les _Requirements properties_
 - Les _Requirements links_
 - Les _Requirements Diagrams_
@@ -269,7 +269,7 @@ ifdef::slides[:leveloffset: +1]
 
 == Les _Requirements properties_
 
-À partir du moment où on commence à définir des propriétés pour les éxigences,
+À partir du moment où on commence à définir des propriétés pour les exigences,
 on peut considérer que l'on est à la frontière avec la phase d'analyse des exigences.
 
 ifdef::book[]
@@ -295,7 +295,7 @@ Il est possible d'indiquer un certain nombre de propriétés sur un _requirement
 
 ifdef::slides[== !]
 
-Dans le cadre du module MPA nous ne retiendrons comme attribut d'un _requirement_
+Dans le cadre de ce module nous ne retiendrons comme attribut d'un _requirement_
 que son identifiant et le texte le désignnat (les deux attributs obligatoire).
 La priorité sera donné par le client en terme de cycle (on traitera en premier les _requirements_ prioritaires).
 
@@ -413,7 +413,7 @@ ifdef::slides[[detail]#{mycaption}#]
 
 ifdef::slides[== Les _Use Case Diagrams_ (suite)]
 
-Ce diagramme est celui que vous avez appris l'an dernier en {uml}.
+Ce diagramme est celui que vous connaissez déjà en {uml}.
 
 :mycaption: Exemple de diagramme des cas d'utilisation (`B`)
 ifndef::slides[.{mycaption}]
