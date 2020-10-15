@@ -1,7 +1,7 @@
 :title: TP SysML
 :doctype: article
-:Author: Jean-Michel Bruel & Christelle Chaudet
-:Email: {bruel,christelle.chaudet}@irit.fr
+:Author: Florian Galinier & Christelle Chaudet
+:Email: {florian.galinier,christelle.chaudet}@irit.fr
 :Revision: 1.1 - {localdate}
 :Date: {LOCALDATE}
 :toc_title: Organisation
@@ -17,6 +17,15 @@
 // raccourcis sites
 :moodle: http://webetud.iut-blagnac.fr[Moodle]
 
+//----------- GitHub --------------
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
 include::definitions.txt[]
 
 //---------------- Définitions
@@ -25,15 +34,17 @@ include::definitions.txt[]
 :toolversion: 1.1.2
 :toolversionlast: 4.0.0
 :daniel: mailto:damyot@uottawa.ca[Daniel Amyiot]
-:depotgithub: https://github.com/M2DL/mib-2016
+:depotgithub: https://github.com/M2DL
 :doors: https://fr.wikipedia.org/wiki/DOORS[DOORS]
 :eclipse: https://www.eclipse.org/[Eclipse]
 :egit: http://wiki.eclipse.org/EGit[EGit]
 :emfcompare: https://www.eclipse.org/emf/compare/[EMFCompare]
-:exigences: https://docs.google.com/spreadsheets/d/1-yaW8fZHG9i6r7vJ7NOU9-66-hnDYY66Vd9cmZTYs2A/edit?usp=sharing
+:exigences: https://docs.google.com/spreadsheets/d/1E2airXijKuRWwcdm31c4NTADObAdzC6Qv8ZBh6hBfUo/edit?usp=sharing
 :jucmnav: http://jucmnav.softwareengineering.ca/ucm/bin/view/ProjetSEG/WebHome[jUCMNav]
 :masterdl: http://www.master-developpement-logiciel.fr/[Master DL]
-:miburl: http://mi.iut-blagnac.fr/
+:alfredurl: https://docs.google.com/document/d/1gOKTkq29SlI3dVAIYpyYmNIh06eAz3PeCvyxF93knsg/edit
+:tpurl: https://fgalinier.github.io/masterDL/sujet.pdf
+:alfredtxt: https://gist.github.com/jmbruel/c3c4a610f31c722313d3e3a33bdcf780
 :mib: {miburl}[MIB]
 :papyrus: https://www.eclipse.org/papyrus/[Papyrus]
 :urn: https://www.itu.int/rec/T-REC-Z.151-201210-I/en[URN]
@@ -50,15 +61,14 @@ utilisé et dont sont issues les éventuelles captures d'écran et instructions.
 
 == Contexte
 
-On souhaite dans ce projet réaliser la modélisation {sysml} de la
-{MIB}.
+On souhaite dans ce projet réaliser la modélisation {sysml} du majordome de Batman!
 
-image::mib.png[alt="MIB"]
+//image::mib.png[alt="MIB"]
 
 Les spécifications initiales du système sont ici :
 
-*    {miburl}
-*    {exigences}[Fichier excel] des exigences initiales
+*    {tpurl}
+*    {exigences}[Fichier excel] des exigences initiales (initialement vide!)
 
 == Outillage
 
@@ -69,28 +79,13 @@ image::papyrus4.png[width=50%]
 NOTE: Si vous souhaitez installer {tool}, suivez le
 https://www.eclipse.org/papyrus/download.html[guide d’installation du site de Papyrus].
 
-Vous allez devoir travailler en mode collaboratif. Suivez les instructions qui
-se trouvent sur le dépôt GitHub : {depotgithub}.
-
-[NOTE]
-====
-- Vérifiez la présence de {egit} sur votre {eclipse}.
-- Si vous avez installé directement {papyrus} (sans passer par le plugin {eclipse}),
-installez le composant Papyrus complémentaire menu:Help[Install Papyrus Additional Components > Papyrus UML Compare Feature].
-- Installez également le plugin suivant en allant sur menu:Help[Install New Software > ...] :
-http://download.eclipse.org/modeling/mdt/papyrus/components/compare/updates/nightly/
-- Allez dans menu:Préférences[Team > Git > Synchronize] et sélectionner `Recursive Model Merge Strategy` dans `Preferred merge strategy`
-+
-image::mergestrategy.png[width=100%]
-====
-
 === Let's start
 
 Vous travaillerez de préférence en binôme.
 
-- Choisissez dans la liste des sous-sytèmes que nous avons listé https://docs.google.com/spreadsheets/d/1n1Z4d2AWP74DZObQgbV5SWXr0Iu1uMny1quY2AKFbRk/edit?usp=sharing[ici] celui qui vous inspire
+- Choisissez dans la liste des sous-sytèmes que nous avons listé {exigences}[ici] celui qui vous inspire
 (et qui est encore libre). Si vous trouvez une autre idée, n'hésitez pas à valider auprès de nous.
-- Ouvrez un nouveau projet (en pensant à le définir du type `SysML`)
+- Ouvrez un nouveau projet {papyrus} (en pensant à le définir du type `SysML`)
 - Ajoutez votre propre organisation (en utilisant les `packages` comme vu en cours) si besoin (menu:right[click>add>])
 
 .Exemple d'organisation
@@ -112,12 +107,7 @@ mais n'attendez pas le dernier moment si vous vous lancez dans cette aventure!
 == Contexte du système à modéliser
 
 Définition::
-	La {mib} est un appartement permettant la supervision de patient
-	à domicile.
-
-Les informations concernant le cahier des charges sont disponibles ici :
-{miburl}.
-
+	Le *Landing Gear System* est une description du train d'atterrissage d'un avion.
 
 == Exigences
 

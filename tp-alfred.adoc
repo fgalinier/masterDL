@@ -39,7 +39,7 @@ include::definitions.txt[]
 :eclipse: https://www.eclipse.org/[Eclipse]
 :egit: http://wiki.eclipse.org/EGit[EGit]
 :emfcompare: https://www.eclipse.org/emf/compare/[EMFCompare]
-:exigences: https://docs.google.com/spreadsheets/d/1t_0K5acaGgXCRAjDlSgaI-EBeqbouAf9M285vgxlFn8/edit?usp=sharing
+:exigences: https://docs.google.com/spreadsheets/d/1mqJdyL4_9gSCE0xhUucRFZoQaRV3h4_D57niVrJNLh0/edit?usp=sharing
 :jucmnav: http://jucmnav.softwareengineering.ca/ucm/bin/view/ProjetSEG/WebHome[jUCMNav]
 :masterdl: http://www.master-developpement-logiciel.fr/[Master DL]
 :alfredurl: https://docs.google.com/document/d/1gOKTkq29SlI3dVAIYpyYmNIh06eAz3PeCvyxF93knsg/edit
@@ -77,21 +77,6 @@ image::papyrus4.png[width=50%]
 
 NOTE: Si vous souhaitez installer {tool}, suivez le
 https://www.eclipse.org/papyrus/download.html[guide d’installation du site de Papyrus].
-
-Vous allez devoir travailler en mode collaboratif. Suivez les instructions qui
-se trouvent sur le dépôt GitHub : {depotgithub}.
-
-[NOTE]
-====
-- Vérifiez la présence de {egit} sur votre {eclipse}.
-- Si vous avez installé directement {papyrus} (sans passer par le plugin {eclipse}),
-installez le composant Papyrus complémentaire menu:Help[Install Papyrus Additional Components > Papyrus UML Compare Feature].
-- Installez également le plugin suivant en allant sur menu:Help[Install New Software > ...] :
-http://download.eclipse.org/modeling/mdt/papyrus/components/compare/updates/nightly/
-- Allez dans menu:Préférences[Team > Git > Synchronize] et sélectionner `Recursive Model Merge Strategy` dans `Preferred merge strategy`
-+
-image::mergestrategy.png[width=100%]
-====
 
 === Let's start
 
