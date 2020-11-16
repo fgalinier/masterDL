@@ -61,7 +61,7 @@ utilisé et dont sont issues les éventuelles captures d'écran et instructions.
 
 == Contexte
 
-On souhaite dans ce projet réaliser la modélisation {sysml} du majordome de Batman!
+On souhaite dans ce projet réaliser la modélisation {sysml} du Landing Gear System.
 
 //image::mib.png[alt="MIB"]
 
